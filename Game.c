@@ -6,7 +6,7 @@ int main()
 {
     // how to generate a randome number
 
-    int number, guess, nguesses = 0;
+    int number, guess, nguesses = 1; //since print statement is placed before incrementing
 
     srand(time(0));
 
